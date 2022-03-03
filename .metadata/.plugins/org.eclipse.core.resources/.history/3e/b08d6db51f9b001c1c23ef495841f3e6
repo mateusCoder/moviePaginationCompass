@@ -1,0 +1,12 @@
+package moviePagination;
+
+import java.sql.Connection;
+
+public class MovieDAO {
+	private Connection connection;
+	
+	public MovieDAO(connection) {
+		
+	}
+	
+}
