@@ -6,6 +6,14 @@ public class Movie {
 	private String description;
 	private int year;
 	
+	public Movie(int id, String name, String description, int year) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.description = description;
+		this.year = year;
+	}
+	
 	public Movie(String name, String description, int year) {
 		super();
 		this.name = name;
@@ -29,7 +37,14 @@ public class Movie {
 		this.id = id;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return String.format("ID: %d \n"
+				+ "Nome: %s \n"
+				+ "Descrição: %s \n"
+				+ "Ano: %d \n", this.id, this.name, this.description, this.year);
+	}
+
 }
 
 

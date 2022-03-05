@@ -1,0 +1,21 @@
+package moviePagination;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class teste {
+
+	public static void main(String[] args) {
+		String texto = ":-c :-c";
+
+		Pattern pattern = Pattern.compile(":-c");  
+		Matcher matcher = pattern.matcher(texto);  
+				
+		int contadorOcorrencias = 0;
+		while(matcher.find()){
+		     contadorOcorrencias++;		
+		}
+
+	}
+
+}

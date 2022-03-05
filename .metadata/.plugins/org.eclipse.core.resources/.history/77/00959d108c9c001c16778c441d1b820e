@@ -1,0 +1,48 @@
+package moviePagination;
+
+import java.sql.Connection;
+
+import java.sql.SQLException;
+import java.util.List;
+import java.util.Scanner;
+
+public class moviePaginationApplication {
+	
+	public static void main(String[] args) throws SQLException {
+		int numberMovies = 3;
+		int numberPage = 8;
+		int numberTotalMovies = 20;
+
+		int numberTotalPages = (int) Math.ceil(numberTotalMovies/numberMovies);
+		
+		System.out.println(numberTotalPages);
+		
+		for(int i = numberMovies*numberPage; i > numberMovies; i--) {
+			//System.out.println(i);
+		}
+		
+//		Scanner read = new Scanner(System.in);
+//		
+//		
+//		ConnectionFactory connectionFactory = new ConnectionFactory();
+//		Connection connection = connectionFactory.recoverConnection();
+		
+		
+//		Movie m1 = new Movie("Panico", "Filme de terror brabo dos brabos, o 1 é o melhor", 1996);
+//		movieDao.add(m1);
+//		
+//		System.out.println("+------------ COMPASS LIBRARY ------------+ \n");
+//		System.out.println("Digite quantos filmes você deseja filtrar: ");
+//		numberMovies = Integer.parseInt(read.next());
+//		System.out.println("Digite qual página você deseja acessar: ");
+//		numberPage = Integer.parseInt(read.next());
+		
+//		MovieDAO movieDao = new MovieDAO(connection);
+//		
+//		List<Movie> listMovies = movieDao.list();
+//		listMovies.stream().forEach(lp -> System.out.println(lp));		
+		
+		
+
+	}	
+}

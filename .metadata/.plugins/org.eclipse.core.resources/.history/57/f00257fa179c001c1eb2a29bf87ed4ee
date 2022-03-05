@@ -1,0 +1,29 @@
+package moviePagination;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class teste {
+
+	public static void main(String[] args) {
+		String texto = ":-cbolinha:-c :-";
+
+		Pattern pattern = Pattern.compile(":-c");  
+		Matcher feliz = pattern.matcher(texto);  
+		Matcher triste = pattern.matcher(texto);  
+				
+		int contadorFeliz = 0;
+		while(feliz.find()){
+		     contadorFeliz++;		
+		}
+		
+		int contadorTriste = 0;
+		while(triste.find()){
+		     contadorTriste++;		
+		}
+		
+		System.out.println(contadorTriste);
+
+	}
+
+}
