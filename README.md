@@ -9,7 +9,7 @@ CREATE TABLE movies (ID INT AUTO_INCREMENT, NAME VARCHAR(100), DESCRIPTION VARCH
 INSERT INTO MOVIES (NAME, DESCRIPTION, YEAR) VALUES ("Panico I", "Filme de terror brabo dos brabos, o melhor da franquia", 1996); <br>
 INSERT INTO MOVIES (NAME, DESCRIPTION, YEAR) VALUES ("Star Wars VI", "A Treta final no espaço com um plot twist top", 1983); <br>
 INSERT INTO MOVIES (NAME, DESCRIPTION, YEAR) VALUES ("Senhor do Aneis", "Uma viagem pela terra média", 2000); <br>
-INSERT INTO MOVIES (NAME, DESCRIPTION, YEAR) VALUES ("Hobbit", "Outra viagem na terra média, 2012); <br>
+INSERT INTO MOVIES (NAME, DESCRIPTION, YEAR) VALUES ("Hobbit", "Outra viagem na terra média", 2012); <br>
 INSERT INTO MOVIES (NAME, DESCRIPTION, YEAR) VALUES ("Meu nome não é Johnny", "O nome dele não é Johnny", 2008); <br>
 INSERT INTO MOVIES (NAME, DESCRIPTION, YEAR) VALUES ("Sexto sentido", "O cara morre e vai pro trabalho", 1999); <br>
 INSERT INTO MOVIES (NAME, DESCRIPTION, YEAR) VALUES ("Não olhe pra cima", "Por que o general cobrou pela água?", 2021); <br>
